@@ -9,6 +9,11 @@ public class HelloTest {
 		this.name = name;
 	}
 
+	@Override
+	public String toString() {
+		return "HelloTest [name=" + name + "]";
+	}
+
 	public String getName() {
 		return name;
 	}
